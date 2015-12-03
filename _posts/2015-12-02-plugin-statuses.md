@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Plugin Statuses
+comments: true
 ---
 
 Chances are you if you're reading this and you're waiting on one of my plugins to be updated, fixed, whatever -- you're curious why, or how, I have time to push out little updates to already released plugins or to create new repos for new plugins, or maybe even how I have time to make this blog (and these posts). Let me go over each plugin and detail what I'm going with them. I'll list them in the order in which they'll get attention.
