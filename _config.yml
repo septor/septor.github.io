@@ -5,18 +5,18 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               septor.xyz
+tagline:             'A rambling mess'
+description:         'A devblog of sorts - discussing, displaying, and accepting feedback about my coding projects.'
+url:                 http://septor.xyz
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Patrick Weaver
+  url:               https://twitter.com/septor
+  email:             patrickweaver@gmail.com
 
 # Custom vars
 version:             1.0.0
