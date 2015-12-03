@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is going on here?
+comments: true
 ---
 
 In short, without rambling too much, here is what is going on:
