@@ -9,7 +9,7 @@ title:               septor.xyz
 tagline:             'A rambling mess'
 description:         'A devblog of sorts - discussing, displaying, and accepting feedback about my coding projects.'
 url:                 http://septor.xyz
-baseurl:             ''
+baseurl:             'http://septor.xyz/'
 paginate:            5
 
 # About/contact
