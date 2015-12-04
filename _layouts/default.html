@@ -13,7 +13,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.author.name }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
         </div>
@@ -40,8 +40,8 @@
              sidebar.contains(target) ||
              (target === checkbox || target === toggle)) return;
 
-          checkbox.checked = false;
-        }, false);
+          checkbox.checked = true;
+        }, true);
       })(document);
     </script>
   </body>

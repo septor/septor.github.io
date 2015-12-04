@@ -2,9 +2,8 @@
 layout: page
 title: Projects
 ---
-
-Repository Name | Forks | Stargazers
-----------------|-------|-------------
+<ul>
 {% for repository in site.github.public_repositories %}
-	[{{ repository.name }}]({{ repository.html_url  }}) | {{ repository.forks_count }} | {{ repository.stargazers_count }}
+	<li><a href="{{ repository.html_url }}">{{ repository.name }}</a></li>
 {% endfor %}
+</ul>
