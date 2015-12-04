@@ -4,5 +4,5 @@ title: Projects
 ---
 
 {% for repository in site.github.public_repositories %}
-	* [{{ repository.name }}]({{ repository.repository_url  }}) - {{ repository.language }}
+	* [ {{ repository.name }} ]({{ repository.url  }}) - {{ repository.language }}
 {% endfor %}
