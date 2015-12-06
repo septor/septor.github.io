@@ -1,22 +1,19 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+title:              septor.xyz
+description:        A rambiling mess.        
+disqus_shortname:   septorxyz
+url:                http://septor.xyz
 
-# Setup
-title:               septor.xyz
-tagline:             'A rambling mess'
-description:         'A devblog of sorts - discussing, displaying, and accepting feedback about my coding projects.'
-url:                 http://septor.xyz
-baseurl:             'http://septor.xyz'
-paginate:            5
+owner:
+  name:             Patrick Weaver
+  avatar:           avatar.jpg
+  bio:              "An unwitty drug smuggler. Or code writer."
+  email:            patrickweaver@gmail.com
+  twitter:          septor
+  github:           septor
 
-# About/contact
-author:
-  name:              Patrick Weaver
-  url:               https://twitter.com/septor
-  email:             patrickweaver@gmail.com
+timezone:           America/Detroit
+future:             true
+pygments:           true
+markdown:           kramdown
 
-# Custom vars
-version:             1.0.0
+paginate:           5

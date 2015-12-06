@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Plugin Statuses
+title: "Plugin Statuses"
+description: "The state of the various plugins I'm working on."
+tags: [e107, plugins, php]
 comments: true
 ---
 
