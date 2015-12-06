@@ -6,12 +6,12 @@ modified: 2015-12-06
 ---
 
 <ul>
-{% assign repos = site.github.public_repositories %}
+{% assign repos = site.github.public_repositories | sort: 'pushed_at' %}
 {% for repo in repos %}
-	<a href="{{ repository.html_url }}">
+	<a href="{{ repo.html_url }}">
 	<li>
-	<div>{{ repository.name }}</div>
-	<div>{{ repository.description }}</div>
+	<div>{{ repo.name }}</div>
+	<div>{{ repo.description }}</div>
 	</li>
 	</a>
 {% endfor %}
