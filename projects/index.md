@@ -7,7 +7,7 @@ modified: 2015-12-06
 
 <ul>
 {% assign repos = site.github.public_repositories | sort: 'pushed_at' %}
-{% for repo in repos %}
+{% for repo in repos reversed %}
 	<a href="{{ repo.html_url }}">
 	<li>
 	<div>{{ repo.name }}</div>
